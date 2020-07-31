@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.port": 5501,
+  "html-css-class-completion.enableEmmetSupport": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true
+}
