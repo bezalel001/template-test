@@ -13,7 +13,7 @@ const showLoadingSpinner = () => {
 };
 
 const removeLoadingSpinner = () => {
-	if (!loading.hidden) {
+	if (!loader.hidden) {
 		quoteContainer.hidden = false;
 		loader.hidden = true;
 	}
@@ -39,6 +39,7 @@ const getQuote = async () => {
 		}
 
 		quoteText.innerText = data.quoteText;
+		console.log(data.quoteText);
 		removeLoadingSpinner();
 	} catch (error) {
 		if (counter++ < 20) {
